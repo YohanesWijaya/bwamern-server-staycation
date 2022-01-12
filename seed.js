@@ -2,7 +2,7 @@ var seeder = require('mongoose-seed');
 var mongoose = require('mongoose');
 
 // Connect to MongoDB via Mongoose
-seeder.connect('mongodb+srv://codeathome:bwamern@cluster0-40j6e.mongodb.net/db_staycation?retryWrites=true&w=majority', {
+seeder.connect('mongodb+srv://YohanesWijaya:bwamern@cluster0.4skl1.mongodb.net/db_staycation?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useCreateIndex: true,
   useFindAndModify: true,
@@ -80,12 +80,57 @@ var data = [
       // done
       {
         // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc902222'),
-        title: 'Tabby Town',
-        price: 12,
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc902230'),
+        title: 'Spring Lake',
+        price: 20,
+        sumBooking: 1,
+        country: 'Indonesia',
+        city: 'Bogor',
+        isPopular: false,
+        description: 'Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.',
+        unit: 'night',
+        imageId: [
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd25') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd26') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd27') }
+        ],
+        featureId: [
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa01') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa02') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa03') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa04') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa05') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa06') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa07') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa08') }
+        ],
+        activityId: [
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb01') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb02') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb03') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb04') }
+        ],
+      },
+      // Castle
+      {
+        // done
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc902223'),
+        title: 'Castle',
+        price: 20,
         sumBooking: 2,
         country: 'Indonesia',
-        city: 'Lampung',
+        city: 'Yogyakarta',
         isPopular: false,
         description: 'Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.',
         unit: 'night',
@@ -96,6 +141,321 @@ var data = [
           { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cdb5') },
           // done
           { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cdb6') }
+        ],
+        featureId: [
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa01') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa02') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa03') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa04') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa05') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa06') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa07') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa08') }
+        ],
+        activityId: [
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb01') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb02') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb03') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb04') }
+        ],
+      },
+
+      // Secret Garden
+      {
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc902224'),
+        title: 'Secret Garden',
+        price: 20,
+        sumBooking: 3,
+        country: 'Indonesia',
+        city: 'Bandung',
+        isPopular: false,
+        description: 'Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.',
+        unit: 'night',
+        imageId: [
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cdb7') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cdb8') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cdb9') }
+        ],
+        featureId: [
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa01') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa02') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa03') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa04') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa05') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa06') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa07') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa08') }
+        ],
+        activityId: [
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb01') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb02') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb03') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb04') }
+        ],
+      },
+
+      // Heavenly Garden
+      {
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc902225'),
+        title: 'Heavenly Garden',
+        price: 20,
+        sumBooking: 4,
+        country: 'Indonesia',
+        city: 'Puncak',
+        isPopular: false,
+        description: 'Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.',
+        unit: 'night',
+        imageId: [
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd10') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd11') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd12') }
+        ],
+        featureId: [
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa01') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa02') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa03') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa04') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa05') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa06') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa07') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa08') }
+        ],
+        activityId: [
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb01') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb02') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb03') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb04') }
+        ],
+      },
+
+      // Eco Park
+      {
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc902226'),
+        title: 'Eco Park',
+        price: 20,
+        sumBooking: 5,
+        country: 'Indonesia',
+        city: 'Surabaya',
+        isPopular: false,
+        description: 'Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.',
+        unit: 'night',
+        imageId: [
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd13') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd14') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd15') }
+        ],
+        featureId: [
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa01') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa02') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa03') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa04') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa05') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa06') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa07') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa08') }
+        ],
+        activityId: [
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb01') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb02') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb03') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb04') }
+        ],
+      },
+
+      // White Majesty
+      {
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc902227'),
+        title: 'White Majesty',
+        price: 20,
+        sumBooking: 6,
+        country: 'Indonesia',
+        city: 'Tangerang',
+        isPopular: false,
+        description: 'Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.',
+        unit: 'night',
+        imageId: [
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd16') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd17') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd18') }
+        ],
+        featureId: [
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa01') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa02') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa03') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa04') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa05') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa06') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa07') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa08') }
+        ],
+        activityId: [
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb01') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb02') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb03') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb04') }
+        ],
+      },
+
+      // The Landscape
+      {
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc902228'),
+        title: 'The Landscape',
+        price: 20,
+        sumBooking: 7,
+        country: 'Indonesia',
+        city: 'Jakarta',
+        isPopular: false,
+        description: 'Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.',
+        unit: 'night',
+        imageId: [
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd19') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd20') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd21') }
+        ],
+        featureId: [
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa01') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa02') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa03') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa04') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa05') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa06') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa07') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa08') }
+        ],
+        activityId: [
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb01') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb02') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb03') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb04') }
+        ],
+      },
+
+      // Granville
+      {
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc902229'),
+        title: 'Granville',
+        price: 20,
+        sumBooking: 8,
+        country: 'Indonesia',
+        city: 'Jakarta',
+        isPopular: false,
+        description: 'Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.',
+        unit: 'night',
+        imageId: [
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd22') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd23') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd24') }
+        ],
+        featureId: [
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa01') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa02') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa03') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa04') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa05') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa06') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa07') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa08') }
+        ],
+        activityId: [
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb01') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb02') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb03') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb04') }
+        ],
+      },
+
+      // Golden Stone
+      {
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc902222'),
+        title: 'Golden Stone',
+        price: 12,
+        sumBooking: 9,
+        country: 'Indonesia',
+        city: 'Jakarta',
+        isPopular: false,
+        description: 'Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.',
+        unit: 'night',
+        imageId: [
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cdb1') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cdb2') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cdb3') }
         ],
         featureId: [
           // done
@@ -120,27 +480,117 @@ var data = [
           { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb06') },
           { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb07') },
           { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb08') }
-        ]
+        ],
       },
-      // done
+
+      // Minimal
       {
-        // done
-        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc902223'),
-        title: 'Seattle Rain',
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc902231'),
+        title: 'Minimal',
         price: 20,
-        sumBooking: 4,
+        sumBooking: 10,
         country: 'Indonesia',
-        city: 'Bandung',
+        city: 'Tangerang',
         isPopular: false,
         description: 'Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.',
         unit: 'night',
         imageId: [
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cdb1') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd28') },
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cdb2') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd29') },
           // done
-          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cdb3') }
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd30') }
+        ],
+        featureId: [
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa01') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa02') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa03') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa04') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa05') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa06') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa07') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa08') }
+        ],
+        activityId: [
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb01') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb02') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb03') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb04') }
+        ],
+      },
+
+      // Wooden leaf
+      {
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc902232'),
+        title: 'Wooden leaf',
+        price: 20,
+        sumBooking: 11,
+        country: 'Indonesia',
+        city: 'Bogor',
+        isPopular: false,
+        description: 'Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.',
+        unit: 'night',
+        imageId: [
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd32') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd31') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd33') }
+        ],
+        featureId: [
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa01') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa02') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa03') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa04') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa05') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa06') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa07') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa08') }
+        ],
+        activityId: [
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb01') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb02') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb03') },
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bb04') }
+        ],
+      },
+
+      // Simple
+      {
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc902233'),
+        title: 'Simple',
+        price: 20,
+        sumBooking: 12,
+        country: 'Indonesia',
+        city: 'Jakarta',
+        isPopular: false,
+        description: 'Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.',
+        unit: 'night',
+        imageId: [
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd36') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd34') },
+          // done
+          { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd35') },
+          // done
         ],
         featureId: [
           // done
@@ -452,12 +902,12 @@ var data = [
     'documents': [
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cee1'),
-        bookingStartDate: '12-12-2020',
-        bookingEndDate: '12-12-2020',
+        bookingStartDate: '28-12-2021',
+        bookingEndDate: '31-12-2021',
         invoice: 1231231,
         itemId: {
           _id: mongoose.Types.ObjectId('5e96cbe292b97300fc902222'),
-          title: 'Village Angga',
+          title: 'Golden Stone',
           price: 6,
           duration: 2,
         },
@@ -481,16 +931,16 @@ var data = [
     'documents': [
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc903333'),
-        firstName: 'Elfin',
-        lastName: 'Sanjaya',
-        email: 'elfinsanjaya12@gmail.com',
+        firstName: 'Golden',
+        lastName: 'Stefanus',
+        email: 'golden.422020002@civitas.ukrida.ac.id',
         phoneNumber: '082377954008'
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc903334'),
-        firstName: 'Yein',
-        lastName: 'Narayana',
-        email: 'elfinsanjaya1207@gmail.com',
+        firstName: 'Eluzai',
+        lastName: 'Vito',
+        email: 'eluzai.422020010@civitas.ukrida.ac.id',
         phoneNumber: '082377954008'
       }
     ]
@@ -501,15 +951,15 @@ var data = [
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc903322'),
         nameBank: 'Mandiri',
-        nomorRekening: '089898',
-        name: 'elfin',
+        nomorRekening: '422020021',
+        name: 'Yohanes Wijaya',
         imageUrl: 'images/9999999999.png'
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc903323'),
         nameBank: 'BCA',
-        nomorRekening: '878678',
-        name: 'elfin',
+        nomorRekening: '422020021',
+        name: 'Yohanes Wijaya',
         imageUrl: 'images/9999999999.png'
       }
     ]
