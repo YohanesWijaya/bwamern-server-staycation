@@ -49,10 +49,10 @@ module.exports = {
         _id: "asd1293uasdads1",
         imageUrl: "images/testimonial2.jpg",
         name: "Happy Family",
-        rate: 4.55,
+        rate: 4.65,
         content: "What a great trip with my family and I should try again next time soon ...",
-        familyName: "Angga",
-        familyOccupation: "Product Designer"
+        familyName: "Eluzai Vito",
+        familyOccupation: "UI/UX Designer"
       }
 
       res.status(200).json({
@@ -85,10 +85,10 @@ module.exports = {
         _id: "asd1293uasdads1",
         imageUrl: "images/testimonial1.jpg",
         name: "Happy Family",
-        rate: 4.55,
+        rate: 4.65,
         content: "What a great trip with my family and I should try again next time soon ...",
-        familyName: "Angga",
-        familyOccupation: "Product Designer"
+        familyName: "Eluzai Vito",
+        familyOccupation: "UI/UX Designer"
       }
 
       res.status(200).json({
