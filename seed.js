@@ -713,7 +713,7 @@ var data = [
       {
         // done
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa01'),
-        name: 'badroom',
+        name: 'bedroom',
         qty: 2,
         imageUrl: 'images/feature-1.png',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902222'),
@@ -729,7 +729,7 @@ var data = [
       {
         // done
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa03'),
-        name: 'televison',
+        name: 'dining room',
         qty: 12,
         imageUrl: 'images/feature-3.png',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902222'),
@@ -737,7 +737,7 @@ var data = [
       {
         // done
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa04'),
-        name: 'televison',
+        name: 'bathroom',
         qty: 5,
         imageUrl: 'images/feature-4.png',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902222'),
@@ -769,7 +769,7 @@ var data = [
       {
         // done
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa08'),
-        name: 'televion',
+        name: 'television',
         qty: 5,
         imageUrl: 'images/feature-8.png',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902222'),
@@ -778,7 +778,7 @@ var data = [
       {
         // done
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa09'),
-        name: 'badroom',
+        name: 'bedroom',
         qty: 2,
         imageUrl: 'images/feature-1.png',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902223'),
@@ -794,7 +794,7 @@ var data = [
       {
         // done
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa11'),
-        name: 'televison',
+        name: 'dining room',
         qty: 12,
         imageUrl: 'images/feature-3.png',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902223'),
@@ -802,7 +802,7 @@ var data = [
       {
         // done
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa12'),
-        name: 'televison',
+        name: 'bathroom',
         qty: 5,
         imageUrl: 'images/feature-4.png',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902223'),
@@ -834,7 +834,7 @@ var data = [
       {
         // done
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90aa16'),
-        name: 'televion',
+        name: 'television',
         qty: 5,
         imageUrl: 'images/feature-8.png',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902223'),
