@@ -1,6 +1,6 @@
 const Item = require('../models/Item');
 const Treasure = require('../models/Activity');
-const Treveler = require('../models/Booking');
+const Traveler = require('../models/Booking');
 const Category = require('../models/Category');
 const Bank = require('../models/Bank');
 const Booking = require('../models/Booking');
@@ -29,7 +29,7 @@ module.exports = {
           }
         })
 
-      const treveler = await Treveler.find();
+      const traveler = await Traveler.find();
       const treasure = await Treasure.find();
       const city = await Item.find();
 
@@ -57,7 +57,7 @@ module.exports = {
 
       res.status(200).json({
         hero: {
-          travelers: treveler.length,
+          travelers: traveler.length,
           treasures: treasure.length,
           cities: city.length
         },
