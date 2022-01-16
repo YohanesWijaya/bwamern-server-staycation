@@ -726,7 +726,7 @@ var data = [
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd22'),
-        imageUrl: 'images/image-category-7-min.jpg'
+        imageUrl: 'images/image-category-19-min.jpg'
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd23'),
