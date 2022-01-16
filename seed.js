@@ -704,6 +704,86 @@ var data = [
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd16'),
         imageUrl: 'images/item-2.png'
       },
+      {
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd17'),
+        imageUrl: 'images/image-category-2-min.jpg'
+      },
+      {
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd18'),
+        imageUrl: 'images/image-category-3-min.jpg'
+      },
+      {
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd19'),
+        imageUrl: 'images/image-category-4-min.jpg'
+      },
+      {
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd20'),
+        imageUrl: 'images/image-category-5-min.jpg'
+      },
+      {
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd21'),
+        imageUrl: 'images/image-category-6-min.jpg'
+      },
+      {
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd22'),
+        imageUrl: 'images/image-category-7-min.jpg'
+      },
+      {
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd23'),
+        imageUrl: 'images/image-category-8-min.jpg'
+      },
+      {
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd24'),
+        imageUrl: 'images/image-category-9-min.jpg'
+      },
+      {
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd25'),
+        imageUrl: 'images/image-category-7-min.jpg'
+      },
+      {
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd26'),
+        imageUrl: 'images/image-category-8-min.jpg'
+      },
+      {
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd27'),
+        imageUrl: 'images/image-category-9-min.jpg'
+      },
+      {
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd28'),
+        imageUrl: 'images/image-category-10-min.jpg'
+      },
+      {
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd29'),
+        imageUrl: 'images/image-category-11-min.jpg'
+      },
+      {
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd30'),
+        imageUrl: 'images/image-category-12-min.jpg'
+      },
+      {
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd31'),
+        imageUrl: 'images/image-category-13-min.jpg'
+      },
+      {
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd32'),
+        imageUrl: 'images/image-category-14-min.jpg'
+      },
+      {
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd33'),
+        imageUrl: 'images/image-category-15-min.jpg'
+      },
+      {
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd34'),
+        imageUrl: 'images/image-category-16-min.jpg'
+      },
+      {
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd35'),
+        imageUrl: 'images/image-category-17-min.jpg'
+      },
+      {
+        _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd36'),
+        imageUrl: 'images/image-category-18-min.jpg'
+      },
     ]
   },
   // end image
