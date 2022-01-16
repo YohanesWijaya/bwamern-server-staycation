@@ -881,28 +881,28 @@ var data = [
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bc05'),
         name: 'Kuta Beach',
         type: 'Nature',
-        imageUrl: 'images/activity-1.png',
+        imageUrl: 'images/activity-1.jpg',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902223'),
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bc06'),
         name: 'Summarecon Mall',
         type: 'Shopping',
-        imageUrl: 'images/activity-2.png',
+        imageUrl: 'images/activity-2.jpg',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902223'),
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bc07'),
         name: 'Waterfall',
         type: 'Nature',
-        imageUrl: 'images/activity-3.png',
+        imageUrl: 'images/activity-3.jpg',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902223'),
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90bc08'),
         name: 'Uluwatu Beach',
         type: 'Nature',
-        imageUrl: 'images/activity-4.png',
+        imageUrl: 'images/activity-4.jpg',
         itemId: mongoose.Types.ObjectId('5e96cbe292b97300fc902223'),
       }
     ]
