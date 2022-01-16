@@ -675,12 +675,12 @@ var data = [
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd10'),
-        imageUrl: 'images/item-1.png'
+        imageUrl: 'images/item-i-1.png'
       },
       {
         // done
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc90cd11'),
-        imageUrl: 'images/item-1.png'
+        imageUrl: 'images/item-3.png'
       },
       // done
       {
