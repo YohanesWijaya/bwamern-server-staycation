@@ -20,7 +20,7 @@ module.exports = {
       if (req.session.user == null || req.session.user == undefined) {
         res.render('index', {
           alert,
-          title: "Staycation | Login"
+          title: "Travellink | Login"
         });
       } else {
         res.redirect('/admin/dashboard');
@@ -69,7 +69,7 @@ module.exports = {
       const booking = await Booking.find();
       const item = await Item.find();
       res.render('admin/dashboard/view_dashboard', {
-        title: "Staycation | Dashboard",
+        title: "Travellink | Dashboard",
         user: req.session.user,
         member,
         booking,
@@ -89,7 +89,7 @@ module.exports = {
       res.render('admin/category/view_category', {
         category,
         alert,
-        title: "Staycation | Category",
+        title: "Travellink | Category",
         user: req.session.user
       });
     } catch (error) {
@@ -150,7 +150,7 @@ module.exports = {
       const alertStatus = req.flash('alertStatus');
       const alert = { message: alertMessage, status: alertStatus };
       res.render('admin/bank/view_bank', {
-        title: "Staycation | Bank",
+        title: "Travellink | Bank",
         alert,
         bank,
         user: req.session.user
@@ -238,7 +238,7 @@ module.exports = {
       const alertStatus = req.flash('alertStatus');
       const alert = { message: alertMessage, status: alertStatus };
       res.render('admin/item/view_item', {
-        title: "Staycation | Item",
+        title: "Travellink | Item",
         category,
         alert,
         item,
@@ -292,7 +292,7 @@ module.exports = {
       const alertStatus = req.flash('alertStatus');
       const alert = { message: alertMessage, status: alertStatus };
       res.render('admin/item/view_item', {
-        title: "Staycation | Show Image Item",
+        title: "Travellink | Show Image Item",
         alert,
         item,
         action: 'show image',
@@ -316,7 +316,7 @@ module.exports = {
       const alertStatus = req.flash('alertStatus');
       const alert = { message: alertMessage, status: alertStatus };
       res.render('admin/item/view_item', {
-        title: "Staycation | Edit Item",
+        title: "Travellink | Edit Item",
         alert,
         item,
         category,
@@ -408,7 +408,7 @@ module.exports = {
       const activity = await Activity.find({ itemId: itemId });
 
       res.render('admin/item/detail_item/view_detail_item', {
-        title: 'Staycation | Detail Item',
+        title: 'Travellink | Detail Item',
         alert,
         itemId,
         feature,
@@ -591,7 +591,7 @@ module.exports = {
         .populate('bankId');
 
       res.render('admin/booking/view_booking', {
-        title: "Staycation | Booking",
+        title: "Travellink | Booking",
         user: req.session.user,
         booking
       });
@@ -612,7 +612,7 @@ module.exports = {
         .populate('bankId');
 
       res.render('admin/booking/show_detail_booking', {
-        title: "Staycation | Detail Booking",
+        title: "Travellink | Detail Booking",
         user: req.session.user,
         booking,
         alert
